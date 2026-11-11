@@ -1,0 +1,3 @@
+{
+  "extends": "@red_sizzle/config/tsconfig.base.json"
+}
