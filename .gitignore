@@ -28,6 +28,9 @@ local.db-*
 *.swo
 *~
 .DS_Store
+.trae/
+.trae
+
 
 # Logs
 logs

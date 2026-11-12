@@ -1,0 +1,60 @@
+---
+version: 1
+slug: "src-app-page-tsx"
+primary_target: "src/app/page.tsx"
+related_targets: []
+---
+
+# Surface Brief — apps/web (Red Sizzle landing page)
+
+## Scope & mode
+Single-page corporate landing site for Red Sizzle. Mode: Persuade.
+Audience: lifters seeking precision-driven training education.
+Job: understand the offer, believe the precision claim, act (explore training / contact).
+Proof: exact spec copy, 7 pinned sections, fictional-but-labeled stats.
+Constraints: exactly 7 sections + nav + footer; pinned palette/typography/logo; demo-only
+contact form that must not claim delivery; reduced-motion respected; WCAG 2.2 AA.
+
+## Direction contract
+
+THESIS: Precision engineering applied to the human body — the page reads like a
+strength-training instrument panel built from forged steel and chalk-dusted dark
+iron: condensed impact type, hard red signal lines, disciplined navy ground.
+It refuses the generic fitness-landing template of stock-photo hero plus
+three rounded feature cards.
+
+OWN-WORLD: Deep Navy #292C40 ground with Secondary Dark #202233 panel surfaces;
+Primary Red #F0203B as the single saturated carrier of emphasis (rules, numbers,
+CTAs, active states); Pure White display type set in Oswald condensed uppercase;
+Muted Gray #A5A8B5 secondary text; sharp geometry (minimal radius), hairline
+white/10 dividers, red underline bars echoing the logo's extended leg.
+
+STORY: The visitor sees that every rep is measured, learns the LEARN → REFINE →
+IMPROVE method, scans the numbers behind the progress, and reaches out.
+
+FIRST VIEWPORT: Sticky translucent navy nav (logo left, anchors center, red CTA
+right) over a full-height hero: left-aligned eyebrow line "PRECISION. STRENGTH.
+PERFORMANCE.", massive white condensed H1 "TRAIN SMARTER. LIFT STRONGER."
+with a red accent treatment, supporting paragraph, paired CTAs (solid red primary,
+outlined secondary), credibility line "Built for lifters. Driven by precision.",
+a dark-gym photographic ground at low opacity with a red rim-light glow, and a
+floating "TECHNIQUE FIRST" card anchored right (desktop only). Primary action sits
+in both nav and hero copy block.
+
+FORM: seed: none (pinned) — the brief pins the world and first-surface experience
+whole: "Primary Red #F0203B, Pure White, Deep Navy #292C40 dominant background …
+Use a Verdana font bold condensed typeface for headlines and a clean sans-serif
+font for body … Hero — eyebrow 'PRECISION. STRENGTH. PERFORMANCE.', headline
+'TRAIN SMARTER. LIFT STRONGER.' … floating card 'TECHNIQUE FIRST'".
+
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish
+review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
+
+## Memorable moment
+The hero's red leg-bar underline motif — lifted from the logo — reappears as the
+section-marker device and the active-nav indicator, one signature line carried
+across the whole page.
+
+## Unresolved decisions
+None; the approved implementation plan (.trae/documents/red-sizzle-landing-page.md)
+settles structure, components, and behavior.

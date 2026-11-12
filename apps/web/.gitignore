@@ -34,6 +34,7 @@
 .DS_Store
 *.pem
 *.local
+.trae/
 
 # Logs
 npm-debug.log*

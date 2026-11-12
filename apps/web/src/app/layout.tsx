@@ -1,23 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 
 import "../index.css";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Providers from "@/components/providers";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const oswald = Oswald({
+  variable: "--font-oswald",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "red_sizzle",
-  description: "red_sizzle",
+  title: "Red Sizzle | Precision-Driven Weightlifting Training",
+  description:
+    "Professional weightlifting training videos built around precision, technique, and measurable progress. Learn, refine, and improve every lift with Red Sizzle.",
 };
 
 export default function RootLayout({
@@ -27,11 +31,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      {/* Browser extensions (Grammarly, Free Download Manager) inject attributes
+          into <body> before hydration; suppress the resulting false-positive warning. */}
+      <body
+        suppressHydrationWarning
+        className={`${oswald.variable} ${inter.variable} antialiased`}
+      >
         <Providers>
-          <div className="grid grid-rows-[auto_1fr] h-svh">
+          <div className="flex min-h-svh flex-col bg-navy text-white">
             <Header />
-            {children}
+            <main className="flex-1">{children}</main>
+            <Footer />
           </div>
         </Providers>
       </body>
