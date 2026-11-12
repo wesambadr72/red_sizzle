@@ -79,7 +79,7 @@ export default function Header() {
               <span
                 aria-hidden="true"
                 className={cn(
-                  "absolute inset-x-3 bottom-0 h-[2px] bg-brand transition-transform duration-300 origin-left",
+                  "absolute inset-x-3 bottom-0 h-0.5 bg-brand transition-transform duration-300 origin-left",
                   active === id ? "scale-x-100" : "scale-x-0 group-hover:scale-x-50",
                 )}
               />

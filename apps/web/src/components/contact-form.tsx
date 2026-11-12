@@ -1,5 +1,6 @@
 "use client";
 
+import { CONTACT } from "@/lib/content";
 import { CheckCircle2, Loader2, Send } from "lucide-react";
 import { useState } from "react";
 import { z } from "zod";
@@ -75,7 +76,7 @@ export default function ContactForm() {
             href={`mailto:${"hello@redsizzle.com"}`}
             className="font-medium text-brand underline-offset-4 hover:underline"
           >
-            hello@redsizzle.com
+            {CONTACT.email}
           </a>{" "}
           and we&apos;ll get back to you within one business day.
         </p>

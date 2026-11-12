@@ -45,7 +45,7 @@ export default function About() {
                 <dd className="mt-3 text-sm leading-relaxed text-steel">{principle.body}</dd>
                 <span
                   aria-hidden="true"
-                  className="absolute bottom-0 left-0 h-[3px] w-0 bg-brand transition-all duration-500 group-hover:w-full"
+                  className="absolute bottom-0 left-0 h-0.75 w-0 bg-brand transition-all duration-500 group-hover:w-full"
                 />
               </div>
             );

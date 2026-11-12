@@ -52,7 +52,7 @@ export default function Features() {
                 <p className="mt-3 text-sm leading-relaxed text-steel">{feature.body}</p>
                 <span
                   aria-hidden="true"
-                  className="mt-6 block h-[3px] w-8 bg-brand transition-all duration-500 group-hover:w-full"
+                  className="mt-6 block h-0.75 w-8 bg-brand transition-all duration-500 group-hover:w-full"
                 />
               </article>
             );
